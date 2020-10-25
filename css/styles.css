@@ -1,0 +1,265 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body h1 {
+  font-family: 'Public Sans', sans-serif;
+
+
+}
+
+body{
+  font-weight: 300;
+}
+
+p{
+  color: hsl(233, 8%, 62%);
+  font-size: 15px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+h6 a{
+  color:black;
+}
+h6 a:hover{
+  color: #28df99;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+
+
+.navi{
+  padding: 0.2rem 4rem;
+  z-index: +2;
+  position: relative;
+  background-color: white;
+}
+.navbar-nav{
+  padding-left: 8%;
+  padding-right: 17%;
+  font-size: 14px;
+}
+
+.nav-item{
+  padding:0 8px;
+}
+#nav-list a:hover{
+  border-bottom: 5px solid  #28df99;
+  color: black;
+
+}
+.cool-button{
+  color:white;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  background: linear-gradient( to right, #28df99, #40a8c4 );
+  border-style: none;
+}
+button:hover{
+  opacity: 0.5;
+}
+.intro{
+  padding: 12rem 0 5rem 0 ;
+  padding-left: 4rem;
+}
+
+.intro-line{
+  background-color: hsl(0, 0%, 98%);
+  overflow: hidden;
+  padding:0 2rem;
+  height:50rem;
+  position: relative;
+
+
+}
+.bg-image{
+  position:absolute;
+  display:inline-block;
+  bottom:18%;
+}
+
+.phone-image{
+  position:absolute;
+  display:inline-block;
+  left:22%;
+  bottom:13%;
+}
+.mobile{
+  display: none;
+}
+.second-container{
+  background-color: hsl(220, 16%, 96%);
+  position: relative;
+  z-index: 1;
+  padding: 6rem 5rem;
+}
+
+.online-banking, .api, .budgetting, .onboarding{
+  padding:2rem 0;
+}
+
+
+.easybank{
+  padding:1rem 0;
+}
+
+.third-container{
+  background-color: hsl(0, 0%, 98%);
+  padding: 3rem;
+}
+
+.card img{
+  height: 136px;
+}
+.card-footer{
+  background-color: white;
+}
+
+.footing{
+  background-color: hsl(233, 26%, 24%);
+  margin:0;
+  color: white;
+  box-sizing: none;
+  padding:  5rem;
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+}
+
+
+.footer-logo{
+  margin-bottom: 3rem;
+}
+.social-media a{
+  margin-right:0.5rem;
+}
+
+.footing li{
+  margin-bottom: 1rem;
+}
+.footing p{
+  margin-top: 2.5rem;
+  font-size: 13px;
+}
+
+.footing button{
+  margin-left:2rem;
+
+}
+.footing a{
+  color:white;
+}
+.footing a:hover{
+  text-decoration: none;
+  color:#28df99;
+}
+/* .social-media img:hover{
+  background-color:#28df99;
+} */
+
+@media(max-width:992px){
+  .navi{
+    margin:auto;
+    padding: 0;
+  }
+
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: block;
+    position: relative;
+    bottom: 15%;
+    min-width: 100%;
+  }
+  .phone{
+    position: absolute;
+    top:0;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0 2rem;
+  }
+  .phone img{
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .bg-image-mobile img{
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .bg-image-mobile{
+    min-width: 100%;
+  }
+  .intro-line{
+    padding:0 0 10rem;
+    margin:0;
+  }
+  .intro{
+    padding:0 2rem;
+
+
+  }
+  h1{
+    font-size: 2rem;
+    text-align:center;
+  }
+  .intro p{
+    text-align: justify;
+    word-spacing: -2px;
+  }
+  .intro-btn{
+    display: flex;
+    justify-content: center;
+  }
+  .second-container{
+    padding: 1rem 2.5rem;
+  }
+  .easyb {
+    display: flex;
+    justify-content: center;
+  }
+  .second-container h2, h4{
+    text-align: center;
+  }
+  .second-heading{
+    padding: 0 0.5rem;
+  }
+  .second-container p{
+    text-align: center;
+  }
+
+  .third-container{
+    padding: 5rem 1rem;
+  }
+  .footing{
+    padding: 2rem 0;
+    text-align: center;
+    flex-direction: column;
+  }
+  .footer-logo, .social-media{
+    margin: 2rem auto;
+  }
+
+  .social-media ul li a, p{
+    margin: auto;
+    padding:0;
+  }
+
+.footer-button{
+  display: flex;
+  justify-content: center;
+}
+.footing button{
+  margin:1rem 0 ;
+}
+
+}
